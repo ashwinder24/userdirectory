@@ -1,0 +1,37 @@
+.content{
+  margin-top: 50px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.sideContent{
+  flex: 1 0 60vw;
+  padding-left: 20px;
+}
+
+.userAvatar{
+  width: 20vw;
+  height: 20vw;
+  float: right;
+  margin: 10px;
+  border: 1px solid lightgray;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+
+.profContent{
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+}
+
+.skillsInfo{
+  display: flex;
+  justify-content: center;
+  flex-flow: row;
+  align-items: center;
+}

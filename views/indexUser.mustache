@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link href="../public/styles.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    {{#users}}
+    <div class="containerImg">
+      <img src="{{avatar}}" alt="{{username}}" />
+      <div class="containerName">
+        <p class="namePara">
+          {{name}}
+        </p>
+      </div>
+    </div>
+      <p class="workInfo">
+        {{job}}, {{company}}
+      </p>
+      {{^job}}
+      <p class="noWork">
+        Available to work!!!
+      </p>
+      {{/job}}
+    {{/users}}
+  </div>
+</body>
+</html>
